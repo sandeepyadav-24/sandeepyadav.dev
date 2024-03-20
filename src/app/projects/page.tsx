@@ -3,7 +3,7 @@ import ProjectTemplate from "../components/ProjectTemplate";
 const project = [
   {
     link: "www.google.com",
-    key: "1",
+
     imageSource:
       "https://media.licdn.com/dms/image/D5622AQGdJdCgFK2-oQ/feedshare-shrink_2048_1536/0/1710859206612?e=1714003200&v=beta&t=6ZMJF8pSF_JIwa_-vVEWSHvO-Pj36RMcNYxZ1ExFPWw",
     projectName: "Article.Ai",
@@ -13,7 +13,7 @@ const project = [
   },
   {
     link: "www.google.com",
-    key: "2",
+
     imageSource:
       "https://media.licdn.com/dms/image/D5622AQGdJdCgFK2-oQ/feedshare-shrink_2048_1536/0/1710859206612?e=1714003200&v=beta&t=6ZMJF8pSF_JIwa_-vVEWSHvO-Pj36RMcNYxZ1ExFPWw",
     projectName: "Article.Ai",
@@ -23,7 +23,7 @@ const project = [
   },
   {
     link: "www.google.com",
-    key: "3",
+
     imageSource:
       "https://media.licdn.com/dms/image/D5622AQGdJdCgFK2-oQ/feedshare-shrink_2048_1536/0/1710859206612?e=1714003200&v=beta&t=6ZMJF8pSF_JIwa_-vVEWSHvO-Pj36RMcNYxZ1ExFPWw",
     projectName: "Article.Ai",
@@ -33,7 +33,7 @@ const project = [
   },
   {
     link: "www.google.com",
-    key: "4",
+
     imageSource:
       "https://media.licdn.com/dms/image/D5622AQGdJdCgFK2-oQ/feedshare-shrink_2048_1536/0/1710859206612?e=1714003200&v=beta&t=6ZMJF8pSF_JIwa_-vVEWSHvO-Pj36RMcNYxZ1ExFPWw",
     projectName: "Article.Ai",
@@ -50,9 +50,10 @@ const Project = () => {
       <h1 className="font-semibold text-white text-3xl text-center ">
         My <span className="text-[#A8DC79]">Latest Projects</span>
       </h1>
-      {project.map((e) => {
+      {project.map((e, index) => {
         return (
           <ProjectTemplate
+            key={index}
             link={e.link}
             imageSource={e.imageSource}
             projectName={e.projectName}

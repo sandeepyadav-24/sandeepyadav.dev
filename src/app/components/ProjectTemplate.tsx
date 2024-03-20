@@ -1,5 +1,12 @@
 import Button from "./Button";
-const ProjectTemplate = (props) => {
+interface ProjectTemplateProps {
+  imageSource: string;
+  projectName: string;
+  projectDescription: string;
+  projectLink: string;
+  link: string;
+}
+const ProjectTemplate: React.FC<ProjectTemplateProps> = (props) => {
   return (
     <div className="flex flex-row bg-[#705BC4]  mt-7 p-5 rounded-3xl">
       <div className="w-1/2 ">
@@ -12,7 +19,7 @@ const ProjectTemplate = (props) => {
         <span>Tags</span>
         <h1 className="text-white">{props.projectName}</h1>
         <h1 className="text-white">{props.projectDescription}</h1>
-        <Button navigation={props.projectLink} />
+        <Button />
       </div>
     </div>
   );

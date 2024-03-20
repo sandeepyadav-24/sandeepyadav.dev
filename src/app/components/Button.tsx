@@ -1,6 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
-const Button = (props) => {
+const Button = () => {
   const router = useRouter();
   return (
     <div
