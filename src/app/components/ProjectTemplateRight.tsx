@@ -1,12 +1,14 @@
 import Button from "./Button";
+import Tag from "./Tag";
 interface ProjectTemplateProps {
   imageSource: string;
   projectName: string;
   projectDescription: string;
   projectLink: string;
   link: string;
+  techStack: string[];
 }
-const ProjectTemplate: React.FC<ProjectTemplateProps> = (props) => {
+const ProjectTemplateRight: React.FC<ProjectTemplateProps> = (props) => {
   return (
     <div className="flex flex-row bg-[#705BC4]  mt-7 p-5 rounded-3xl">
       <div className="w-1/2 ">
@@ -16,7 +18,11 @@ const ProjectTemplate: React.FC<ProjectTemplateProps> = (props) => {
         />
       </div>
       <div className="w-1/2 py-5 ">
-        <span>Tags</span>
+        <div className="flex flex-wrap">
+          {props.techStack.map((e, index) => {
+            return <Tag techStack={e} />;
+          })}
+        </div>
         <h1 className="text-white">{props.projectName}</h1>
         <h1 className="text-white">{props.projectDescription}</h1>
         <Button />
@@ -24,4 +30,4 @@ const ProjectTemplate: React.FC<ProjectTemplateProps> = (props) => {
     </div>
   );
 };
-export default ProjectTemplate;
+export default ProjectTemplateRight;

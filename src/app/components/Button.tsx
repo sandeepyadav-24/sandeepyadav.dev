@@ -4,7 +4,7 @@ const Button = () => {
   const router = useRouter();
   return (
     <div
-      className="flex flex-row w-48 bg-white rounded-full  "
+      className="flex flex-row w-48 bg-white rounded-full my-10 "
       onClick={() => {
         router.push("/");
       }}

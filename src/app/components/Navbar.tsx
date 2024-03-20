@@ -11,12 +11,17 @@ const Navbar = () => {
           <Link href="/about">About</Link>
         </h1>
         <h1 className="mx-3">
+          <Link href="hackathons">Hackathons</Link>
+        </h1>
+        <h1 className="mx-3">
           <Link href="projects">Projects</Link>
         </h1>
         <h1 className="mx-3">
           <Link href="blogs">Blogs</Link>
         </h1>
-        <div className="mx-10">Contact Me</div>
+        <div className="mx-10 bg-[#5740B9] rounded-xl text-white px-4 py-2">
+          Contact Me
+        </div>
       </div>
     </div>
   );
