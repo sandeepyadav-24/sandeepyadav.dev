@@ -1,5 +1,5 @@
-import HackathonTemplateRight from "../components/HackathonTemplateRight";
-import HackathonTemplateLeft from "../components/HackathonTemplateLeft";
+import HackathonTemplateRight from "../../components/HackathonTemplateRight";
+import HackathonTemplateLeft from "../../components/HackathonTemplateLeft";
 
 const hack = [
   {

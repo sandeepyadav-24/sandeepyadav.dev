@@ -1,6 +1,6 @@
 import { link } from "fs";
-import ProjectTemplateRight from "../components/ProjectTemplateRight";
-import ProjectTemplateLeft from "../components/ProjectTemplateLeft";
+import ProjectTemplateRight from "../../components/ProjectTemplateRight";
+import ProjectTemplateLeft from "../../components/ProjectTemplateLeft";
 const project = [
   {
     link: "www.google.com",
@@ -19,7 +19,8 @@ const project = [
       "TypeScript",
       "Generative Ai",
       "OpenAi API",
-      "Gemini",
+      "Gemini Pro",
+      "Gemini Pro Vision",
     ],
     projectDescription:
       "Ai powered Website Which help to do all task. Ai powered Website Which help to do all task. Ai powered Website Which help to do all task. Ai powered Website Which help to do all task.",
@@ -42,7 +43,7 @@ const project = [
       "TypeScript",
       "Generative Ai",
       "OpenAi API",
-      "Gemini",
+      "Gemini Pro",
     ],
     projectDescription:
       "Ai powered Website Which help to do all task. Ai powered Website Which help to do all task. Ai powered Website Which help to do all task. Ai powered Website Which help to do all task.",
@@ -65,7 +66,7 @@ const project = [
       "TypeScript",
       "Generative Ai",
       "OpenAi API",
-      "Gemini",
+      "Gemini Pro",
     ],
     projectDescription:
       "Ai powered Website Which help to do all task. Ai powered Website Which help to do all task. Ai powered Website Which help to do all task. Ai powered Website Which help to do all task.",
@@ -85,6 +86,23 @@ const project = [
       "JWT",
       "Recoil",
       "MongoDB",
+      "javaScript",
+    ],
+    projectDescription:
+      "Ai powered Website Which help to do all task. Ai powered Website Which help to do all task. Ai powered Website Which help to do all task. Ai powered Website Which help to do all task.",
+    projectLink: "www.google.com",
+  },
+  {
+    link: "www.google.com",
+
+    imageSource:
+      "https://media.licdn.com/dms/image/D5622AQGdJdCgFK2-oQ/feedshare-shrink_2048_1536/0/1710859206612?e=1714003200&v=beta&t=6ZMJF8pSF_JIwa_-vVEWSHvO-Pj36RMcNYxZ1ExFPWw",
+    projectName: "Portfolio Website",
+    techStack: [
+      "Next.js",
+      "React.js",
+      "TailwindCSS",
+      "Material UI",
       "javaScript",
     ],
     projectDescription:
