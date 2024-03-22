@@ -1,26 +1,40 @@
 import Button from "./Button";
 const AboutIntro = () => {
   return (
-    <div className="flex flex-row my-20 mx-40">
-      <div className="w-1/2 mx-20">
-        <div className="w-[300px] h-[550px] bg-[#5640B8]">
-          <h1 className="text-white  text-2xl">Sandeep Yadav</h1>
-          <h1 className="text-white text-[300px]">1</h1>
-          <h1 className="text-white text-2xl">Years of Experience</h1>
+    <div className="flex flex-col md:flex-row my-20 mx-5 md:mx-96">
+      <div className="md:w-1/2  text-right ">
+        <div className="w-[300px] h-[400px] bg-[#5640B8] rounded-2xl">
+          <h1 className="text-white  text-3xl mx-9 ">Sandeep Yadav</h1>
+          <h1 className="text-white text-[300px] font-bold pl-32 leading-none">
+            3
+          </h1>
+          <h1 className="text-white text-2xl text-right">
+            months of Experience
+          </h1>
         </div>
       </div>
-      <div className="w-1/2">
-        <h1>About Me</h1>
-        <h1>Who is Sandeep yadav??</h1>
+      <div className="md:w-1/2">
+        <h1>
+          <span className="text-[#5640B8] text-xl">~</span>About Me
+        </h1>
+        <h1 className="font-bold text-4xl my-5">
+          Who is <span className="text-[#5640B8] ">Sandeep yadav?</span>
+        </h1>
         <h1>
           I am a Full Stack a web Developer worked on several project with Ai
           Integration
         </h1>
-        <div className="flex flex-row">
-          <h1> 5+ projects</h1>
-          <h1> 1+ Freelance Projects</h1>
+        <div className="flex flex-row justify-between my-3 ">
+          <div className="w-1/2">
+            <h1 className="font-semibold">5+</h1>
+            <h1>Projects Completed</h1>
+          </div>
+          <div className="w-1/2">
+            <h1 className="font-semibold">1+</h1>
+            <h1> Freelance Projects</h1>
+          </div>
         </div>
-        <Button />
+        <Button working={"Resume"} />
       </div>
     </div>
   );

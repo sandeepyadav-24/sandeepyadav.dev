@@ -1,6 +1,16 @@
-import Navbar from "./Navbar";
+import AboutIntro from "./AboutIntro";
+import ConnectBanner from "./ConnectBanner";
+import EducationAndWork from "./EducationAndWork";
+import Hero from "./Hero";
 
 const HomePage = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Hero />
+      <AboutIntro />
+      <EducationAndWork />
+      <ConnectBanner />
+    </div>
+  );
 };
 export default HomePage;
