@@ -1,7 +1,15 @@
-import Link from "next/link";
+import DrawerAppBar from "./DrawerAppBar";
 const Navbar = () => {
   return (
-    <div className="flex flex-row justify-between md:py-10 bg-[#5640B8] text-white">
+    <div>
+      <DrawerAppBar />
+    </div>
+  );
+};
+export default Navbar;
+
+{
+  /**<div className="flex flex-row justify-between md:py-10 bg-[#5640B8] text-white">
       <div className="mx-2 md:mx-20">Sandeep Yadav</div>
       <div className="mx-2 md:mx-20 flex flex-row">
         <h1 className=" mx-1 md:mx-3">
@@ -20,7 +28,5 @@ const Navbar = () => {
           Contact Me
         </div>
       </div>
-    </div>
-  );
-};
-export default Navbar;
+    </div> */
+}

@@ -1,4 +1,5 @@
 import Button from "./Button";
+import CustomMarque from "./CustomMarque";
 interface HackathonTemplateProps {
   name: string;
   description: string;
@@ -12,13 +13,16 @@ const HackathonTemplateLeft: React.FC<HackathonTemplateProps> = (props) => {
   return (
     <div className="bg-[#705BC4] flex flex-col md:flex-row my-10 rounded-2xl p-4 ">
       <div className="md:w-1/2 flex flex-col ">
-        <span className="bg-white w-40">{props.name}</span>
+        <span className="bg-[#A2D974] font-bold mx-1 my-1 py-2 rounded-md px-5">
+          {props.name}
+        </span>
+        <CustomMarque college={props.location} />
         <span>{props.description}</span>
 
         <h1>{props.date}</h1>
         <h1>{props.mode}</h1>
         <h1>{props.project}</h1>
-        <h1>{props.location}</h1>
+        <h1>{}</h1>
         <Button working={"View Details"} />
       </div>
       <div className="md:w-1/2">

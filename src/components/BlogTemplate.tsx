@@ -8,7 +8,7 @@ interface BlogTemplateProps {
 
 const BlogTemplate: React.FC<BlogTemplateProps> = (props) => {
   return (
-    <div className="bg-[#705BC4] mx-40 my-10 rounded-2xl w-[350px]">
+    <div className="bg-[#705BC4] mx-10 my-10 rounded-2xl w-[350px]">
       <div className="mt-5">
         <img className="w-[300px] mx-auto mt-5" src={props.img} />
       </div>

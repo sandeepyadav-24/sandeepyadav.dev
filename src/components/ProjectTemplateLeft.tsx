@@ -17,7 +17,10 @@ const ProjectTemplateLeft: React.FC<ProjectTemplateProps> = (props) => {
             return <Tag techStack={e} />;
           })}
         </div>
-        <h1 className="text-white font-bold">{props.projectName}</h1>
+
+        <span className="bg-[#A2D974] font-bold mx-1 my-1 py-2 rounded-md px-5">
+          {props.projectName}
+        </span>
         <h1 className="text-white my-2">{props.projectDescription}</h1>
         <div className="flex justify-between ">
           <Button working={"View Details"} />

@@ -23,7 +23,7 @@ const BlogPost = () => {
     <div className="bg-[#5740B9]">
       <h1>Blogs</h1>
       <h1>From My Blog Post</h1>
-      <div className="flex-row">
+      <div className=" flex flex-col md:flex-row ">
         {blog.map((e, index) => {
           return (
             <BlogTemplate

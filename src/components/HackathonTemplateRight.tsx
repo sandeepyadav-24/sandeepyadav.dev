@@ -1,4 +1,5 @@
 import Button from "./Button";
+import CustomMarque from "./CustomMarque";
 interface HackathonTemplateProps {
   name: string;
   description: string;
@@ -19,12 +20,15 @@ const HackathonTemplateRight: React.FC<HackathonTemplateProps> = (props) => {
         />
       </div>
       <div className="md:w-1/2 flex flex-col">
-        <span className="bg-white inline-block">{props.name}</span>
-        <span>{props.description}</span>
-        <h1>{props.date}</h1>
-        <h1>{props.mode}</h1>
-        <h1>{props.project}</h1>
-        <h1>{props.location}</h1>
+        <span className="bg-[#A2D974] font-bold mx-1 my-1 py-2 rounded-md px-5 text-white">
+          {props.name}
+        </span>
+        <CustomMarque college={props.location} />
+        <span className="text-white">{props.description}</span>
+        <h1 className="text-white">{props.date}</h1>
+        <h1 className="text-white">{props.mode}</h1>
+        <h1 className="text-white">{props.project}</h1>
+
         <Button working={"View Details"} />
       </div>
     </div>
