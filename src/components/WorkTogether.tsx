@@ -3,8 +3,8 @@ const WorkTogether = () => {
   return (
     <div className=" p-10 md:p-52 px-20 md:px-72">
       <h1 className="font-bold text-2xl md:text-8xl text-center">
-        Let's Create an <span className="text-[#705BC4]">Amazing Project</span>{" "}
-        Together!
+        Let&apos;s Create an{" "}
+        <span className="text-[#705BC4]">Amazing Project</span> Together!
       </h1>
       <div className="bg-[#705BC4] text-white my-5 md:py-2 mx-10 md:mx-52 rounded-md">
         <Marquee speed={100}>

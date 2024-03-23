@@ -4,7 +4,7 @@ const ConnectBanner = () => {
     <div className=" mx-5 md:mx-40 my-20">
       <div className="flex flex-row justify-between my-5">
         <h1 className="text-4xl font-semibold  ">
-          Let's <span className="text-[#5640B6]">Connect</span> there
+          Let&apos;s <span className="text-[#5640B6]">Connect</span> there
         </h1>
         <Button working={"View Details"} />
       </div>
