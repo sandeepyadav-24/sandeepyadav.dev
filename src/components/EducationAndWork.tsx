@@ -59,6 +59,7 @@ const EducationAndWork = () => {
                 name={e.name}
                 description={e.description}
                 year={e.timeline}
+                key={index}
               />
             );
           })}
@@ -91,6 +92,7 @@ const EducationAndWork = () => {
                 name={e.name}
                 description={e.description}
                 year={e.timeline}
+                key={index}
               />
             );
           })}

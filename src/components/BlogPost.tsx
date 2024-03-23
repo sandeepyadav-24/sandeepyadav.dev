@@ -32,6 +32,7 @@ const BlogPost = () => {
               author={e.blogAuthor}
               date={e.blogDate}
               img={e.blogImage}
+              key={index}
             />
           );
         })}

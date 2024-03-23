@@ -8,10 +8,14 @@ interface HackathonTemplateProps {
   project: string;
   location: string;
   image: string;
+  key: number;
 }
 const HackathonTemplateRight: React.FC<HackathonTemplateProps> = (props) => {
   return (
-    <div className="bg-[#705BC4] flex flex-col md:flex-row my-10 rounded-2xl p-4">
+    <div
+      className="bg-[#705BC4] flex flex-col md:flex-row my-10 rounded-2xl p-4"
+      key={props.key}
+    >
       <div className="md:w-1/2">
         <img
           className="w-[500px] h-[300px] rounded-2xl"

@@ -94,6 +94,7 @@ const Hackathon = () => {
                   project={e.hackathonProject}
                   location={e.hackathonLocation}
                   image={e.hackathonImage}
+                  key={index}
                 />
               );
             } else {
@@ -106,6 +107,7 @@ const Hackathon = () => {
                   project={e.hackathonProject}
                   location={e.hackathonLocation}
                   image={e.hackathonImage}
+                  key={index}
                 />
               );
             }

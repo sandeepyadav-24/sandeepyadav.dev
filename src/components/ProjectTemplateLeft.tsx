@@ -14,7 +14,7 @@ const ProjectTemplateLeft: React.FC<ProjectTemplateProps> = (props) => {
       <div className="md:w-1/2 py-5 ">
         <div className="flex flex-wrap my-3">
           {props.techStack.map((e, index) => {
-            return <Tag techStack={e} />;
+            return <Tag techStack={e} key={index} />;
           })}
         </div>
 
