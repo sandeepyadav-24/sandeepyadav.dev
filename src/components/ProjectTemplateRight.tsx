@@ -20,7 +20,7 @@ const ProjectTemplateRight: React.FC<ProjectTemplateProps> = (props) => {
       <div className="md:w-1/2 py-5 ">
         <div className="flex flex-wrap my-3">
           {props.techStack.map((e, index) => {
-            return <Tag techStack={e} />;
+            return <Tag techStack={e} key={index} />;
           })}
         </div>
         <span className="bg-[#A2D974] font-bold mx-1 my-1 py-2 rounded-md px-5">
