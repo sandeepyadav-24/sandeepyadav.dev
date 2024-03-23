@@ -78,7 +78,7 @@ const Skills = () => {
             </span>
           </div>
         </div>
-        <div className="flex flex-row my-2">
+        <div className="flex flex-row my-2 ">
           <span className="text-white w-1/5">Tools</span>
           <div className="flex flex-wrap w-4/5">
             <span className="px-3 py-1 mx-1 my-1 bg-[#A1D874] text-md font-bold rounded-md">

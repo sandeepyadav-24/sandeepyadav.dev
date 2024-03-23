@@ -17,7 +17,10 @@ const HackathonTemplateLeft: React.FC<HackathonTemplateProps> = (props) => {
           {props.name}
         </span>
         <CustomMarque college={props.location} />
-        <span>{props.description}</span>
+
+        <div className="bg-[#5640B8] border-[0.5px] border-white text-white rounded-md px-2 py-2">
+          {props.description}
+        </div>
 
         <h1>{props.date}</h1>
         <h1>{props.mode}</h1>
