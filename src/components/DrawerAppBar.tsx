@@ -50,14 +50,14 @@ export default function DrawerAppBar(props: Props) {
       </Typography>
       <Divider />
       <List>
-        {navItems.map((item) => (
-          <Link href={item.link} passHref>
+        {navItems.map((item, index) => (
+          <Link href={item.link} key={index} passHref>
             {" "}
             {/* Use NextLink as wrapper */}
             <ListItemButton
               sx={{ textAlign: "center", backgroundColor: "#5640B7" }}
             >
-              <ListItemText primary={item.text} />
+              <ListItemText primary={item.text} key={index} />
             </ListItemButton>
           </Link>
         ))}
@@ -98,9 +98,9 @@ export default function DrawerAppBar(props: Props) {
               backgroundColor: "#5640B7",
             }}
           >
-            {navItems.map((item) => (
+            {navItems.map((item, index) => (
               <Button
-                key={item.text}
+                key={index}
                 component={Link} // Use NextLink as component
                 href={item.link} // Pass href prop
                 sx={{ color: "#fff" }}
