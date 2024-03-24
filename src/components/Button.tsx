@@ -4,6 +4,9 @@ type prop = {
   working: string;
 };
 const Button = (props: prop) => {
+  const small = props.working.split(" ");
+  const arr = small[1];
+
   //const router = useRouter();
   return (
     <div className="flex flex-row w-48 bg-[#242424] rounded-full h-10 ">
@@ -25,7 +28,7 @@ const Button = (props: prop) => {
           </svg>
         </div>
       </div>
-      <div className="bg-[#A3DA74] w-3/4 py-2 rounded-full px-5 font-semibold">
+      <div className="bg-[#A3DA74]   w-3/4 py-2 rounded-full px-10 font-semibold">
         {props.working}
       </div>
     </div>

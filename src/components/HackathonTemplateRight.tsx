@@ -15,17 +15,17 @@ interface HackathonTemplateProps {
 const HackathonTemplateRight: React.FC<HackathonTemplateProps> = (props) => {
   return (
     <div
-      className="bg-[#705BC4] flex flex-col md:flex-row my-10 rounded-2xl p-4"
+      className="bg-[#705BC4] flex flex-col md:flex-row my-10 rounded-2xl p-3"
       key={props.key}
     >
-      <div className="md:w-1/2 ">
+      <div className="md:w-1/2 my-1 ">
         <img
           className="w-[500px] md:mx-5 h-[340px] rounded-2xl "
           src={props.image}
           alt=""
         />
       </div>
-      <div className="md:w-1/2 flex flex-col border-white border-[1px] rounded-lg p-2 ">
+      <div className="md:w-1/2 my-1 flex flex-col border-white border-[1px] rounded-lg p-2 ">
         <span className="bg-[#A2D974] font-bold  my-1 py-2 rounded-md px-5 text-black border-[1px] border-black">
           {props.name}
         </span>
@@ -40,7 +40,7 @@ const HackathonTemplateRight: React.FC<HackathonTemplateProps> = (props) => {
         </div>
 
         <div className="flex flex-row justify-between ">
-          <Button working={"View Details"} />
+          <Button working={"Details"} />
           <AchievementTag name={props.achievement} />
         </div>
       </div>

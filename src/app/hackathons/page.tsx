@@ -86,7 +86,7 @@ const Hackathon = () => {
         <h1 className="font-semibold text-white text-3xl text-center">
           My <span className="text-[#A8DC79]">Hackathons</span>
         </h1>
-        <div className=" mx-5 md:mx-40">
+        <div className=" mx-3 md:mx-40">
           {hack.map((e, index) => {
             if (index % 2 == 0) {
               return (
