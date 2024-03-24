@@ -14,7 +14,7 @@ const BlogTemplate: React.FC<BlogTemplateProps> = (props) => {
       key={props.key}
     >
       <div className="mt-5">
-        <img className="w-[300px] mx-auto mt-5" src={props.img} />
+        <img className="w-[300px] mx-auto mt-5 rounded-2xl" src={props.img} />
       </div>
       <div>
         <h1>{props.tag}</h1>

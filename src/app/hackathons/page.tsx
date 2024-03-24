@@ -10,72 +10,76 @@ const hack = [
     hackathonImage:
       "https://media.licdn.com/dms/image/D5622AQHfpmOl4ePNSg/feedshare-shrink_2048_1536/0/1710859208362?e=1714003200&v=beta&t=veq0hi-2mAFdmwoNlEnMUvZwVxLdwgR4CJ50P58EpzY",
     hackathonDescription:
-      "It was a fantastic hackathon with full of fun and enjoyment",
+      "I was the runner-up at NIT Hamirpur's Eletrothon 6.0, where my team developed a productivity tool combining AI Gemini Pro and OpenAI. Our platform enables users to write daily journals, automatically converting and posting them across platforms. It streamlines user tasks, saving valuable time.",
     hackathonDate: "8 March 2024",
     hackathonMode: "Offline",
     hackathonProject: "Social.Ai",
     hackathonLocation: "NIT Hamirpur, Himachal Pradesh",
+    hackathonAchievement: "Runner Up in Track Prize",
   },
   {
     hackathonName: "Hacked 2.0",
     hackathonImage: "./BmlBanner.jpeg",
     hackathonDescription:
-      "It was a fantastic hackathon with full of fun and enjoyment",
+      "Participating in the Jaypee Noida Virtual Hackathon led to BookBridge, a platform fostering community through shared knowledge. Overcoming challenges like communication systems and user-friendly interfaces, BookBridge breaks barriers, symbolizing limitless possibilities in problem-solving.",
     hackathonDate: "1 March 2024",
     hackathonMode: "Offline",
-    hackathonProject: "Tweepy",
+    hackathonProject: "Notify",
     hackathonLocation: "BML Munjal University, Haryana",
+    hackathonAchievement: "Under Top 10 Teams",
   },
   {
     hackathonName: "Open Hack",
-    hackathonImage:
-      "https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/gallery/65bfbbd3cfb70_20230304_053455988_ios.jpg?d=600x600",
+    hackathonImage: "./IiscHack.jpeg",
     hackathonDescription:
-      "It was a fantastic hackathon with full of fun and enjoyment",
+      "Participating in the Jaypee Noida Virtual Hackathon led to BookBridge, a platform fostering community through shared knowledge. Overcoming challenges like communication systems and user-friendly interfaces, BookBridge breaks barriers, symbolizing limitless possibilities in problem-solving.",
     hackathonDate: "24 February 2024",
     hackathonMode: "Offline",
     hackathonProject: "Article.Ai",
-    hackathonLocation: "IISC Bangalore",
+    hackathonLocation: "IISC, Bangalore",
+    hackathonAchievement: "Disqualified in Round 1",
   },
   {
     hackathonName: "Hack Street",
-    hackathonImage:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1707296742727/98494ab6-e388-4189-bdc2-594093fdfa6e.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+    hackathonImage: "./Hack3.jpeg",
     hackathonDescription:
-      "It was a fantastic hackathon with full of fun and enjoyment",
+      "Participating in the Jaypee Noida Virtual Hackathon led to BookBridge, a platform fostering community through shared knowledge. Overcoming challenges like communication systems and user-friendly interfaces, BookBridge breaks barriers, symbolizing limitless possibilities in problem-solving.",
     hackathonDate: "7 February 2024",
     hackathonMode: "Online",
     hackathonProject: "BookBridge",
-    hackathonLocation: "Jaypee Noida",
+    hackathonLocation: "Jaypee Institute of Information Technology, Noida",
+    hackathonAchievement: "Disqualified in Final Round",
   },
   {
     hackathonName: "Smart India Hackathon",
     hackathonImage:
       "https://media.licdn.com/dms/image/D4D22AQHUaJ4knp6gtg/feedshare-shrink_800/0/1696075963957?e=1714003200&v=beta&t=XduPztnh_ErifaomOxvgf7G0gXczdUpvRMDz0MRGhq0",
     hackathonDescription:
-      "It was a fantastic hackathon with full of fun and enjoyment",
+      "Participating in the Jaypee Noida Virtual Hackathon led to BookBridge, a platform fostering community through shared knowledge. Overcoming challenges like communication systems and user-friendly interfaces, BookBridge breaks barriers, symbolizing limitless possibilities in problem-solving.",
     hackathonDate: "7 November 2023",
     hackathonMode: "Online",
-    hackathonProject: "Yet",
+    hackathonProject: "DropX",
     hackathonLocation: "ITS Engineering College, Greater Noida",
+    hackathonAchievement: "Selected for College Level",
   },
   {
     hackathonName: "Hack Xtreme",
     hackathonImage:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1707296742727/98494ab6-e388-4189-bdc2-594093fdfa6e.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
     hackathonDescription:
-      "It was a fantastic hackathon with full of fun and enjoyment",
+      "Participating in the Jaypee Noida Virtual Hackathon led to BookBridge, a platform fostering community through shared knowledge. Overcoming challenges like communication systems and user-friendly interfaces, BookBridge breaks barriers, symbolizing limitless possibilities in problem-solving.",
     hackathonDate: "5 October 2023",
     hackathonMode: "Online",
-    hackathonProject: "Code Editor",
-    hackathonLocation: "IIT Delhi",
+    hackathonProject: "CodeX",
+    hackathonLocation: "IIT, Delhi",
+    hackathonAchievement: "Under Top 50 Teams",
   },
 ];
 
 const Hackathon = () => {
   return (
     <div>
-      <div className="bg-[#5740B9]">
+      <div className="bg-[#5740B9] py-6">
         <h1 className="text-white text-center">
           <span className="text-[#A8DC79]">-</span>Hackathons
         </h1>
@@ -94,6 +98,7 @@ const Hackathon = () => {
                   project={e.hackathonProject}
                   location={e.hackathonLocation}
                   image={e.hackathonImage}
+                  achievement={e.hackathonAchievement}
                   key={index}
                 />
               );
@@ -107,6 +112,7 @@ const Hackathon = () => {
                   project={e.hackathonProject}
                   location={e.hackathonLocation}
                   image={e.hackathonImage}
+                  achievement={e.hackathonAchievement}
                   key={index}
                 />
               );

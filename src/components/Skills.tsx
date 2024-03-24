@@ -1,4 +1,5 @@
 import Button from "./Button";
+import RotatingCircle from "./RotatingCircle";
 import SkillLogo from "./SkillLogo";
 const Skills = () => {
   return (
@@ -8,8 +9,10 @@ const Skills = () => {
       </div>
       <div className="md:w-1/2">
         <div className="flex flex-row my-2">
-          <span className="text-white w-1/5">Frontend</span>
-          <div className="flex flex-wrap w-4/5">
+          <span className="text-white w-1/4 font-extrabold md:text-xl py-2 px-2">
+            Frontend
+          </span>
+          <div className="flex flex-wrap w-3/4">
             <span className="px-3 py-1 mx-1 my-1 bg-[#A1D874] text-md font-bold rounded-md">
               Next.js
             </span>
@@ -40,8 +43,10 @@ const Skills = () => {
           </div>
         </div>
         <div className="flex flex-row my-2">
-          <span className="text-white w-1/5">Backend</span>
-          <div className="flex flex-wrap w-4/5">
+          <span className="text-white w-1/4 font-extrabold md:text-xl py-2 px-2">
+            Backend
+          </span>
+          <div className="flex flex-wrap w-3/4">
             <span className="px-3 py-1 mx-1 my-1 bg-[#A1D874] text-md font-bold rounded-md">
               Node.js
             </span>
@@ -60,16 +65,20 @@ const Skills = () => {
           </div>
         </div>
         <div className="flex flex-row my-2">
-          <span className="text-white w-1/5">DevOps</span>
-          <div className="flex flex-wrap w-4/5">
+          <span className="text-white w-1/4 font-extrabold py-2 md:text-xl px-2">
+            DevOps
+          </span>
+          <div className="flex flex-wrap w-3/4">
             <span className="px-3 py-1 mx-1 my-1 bg-[#A1D874] text-md font-bold rounded-md">
               AWS
             </span>
           </div>
         </div>
         <div className="flex flex-row my-2">
-          <span className="text-white w-1/5">DataBase</span>
-          <div className="flex flex-wrap w-4/5">
+          <span className="text-white w-1/4 font-bold py-2 md:text-xl px-2">
+            DataBase
+          </span>
+          <div className="flex flex-wrap w-3/4">
             <span className="px-3 py-1 mx-1 my-1 bg-[#A1D874] text-md font-bold rounded-md">
               MongoDB
             </span>
@@ -79,8 +88,10 @@ const Skills = () => {
           </div>
         </div>
         <div className="flex flex-row my-2 ">
-          <span className="text-white w-1/5">Tools</span>
-          <div className="flex flex-wrap w-4/5">
+          <span className="text-white w-1/4 font-extrabold py-2 md:text-xl px-2">
+            Tools
+          </span>
+          <div className="flex flex-wrap w-3/4">
             <span className="px-3 py-1 mx-1 my-1 bg-[#A1D874] text-md font-bold rounded-md">
               Git
             </span>
@@ -99,8 +110,10 @@ const Skills = () => {
           </div>
         </div>
         <div className="flex flex-row my-2">
-          <span className="text-white w-1/5">Languages</span>
-          <div className="flex flex-wrap w-4/5">
+          <span className="text-white w-1/4 font-extrabold md:text-xl py-2 px-2">
+            Languages
+          </span>
+          <div className="flex flex-wrap w-3/4">
             <span className="px-3 py-1 mx-1 my-1 bg-[#A1D874] text-md font-bold rounded-md">
               C/C++ ( Problem Solving )
             </span>
@@ -110,6 +123,22 @@ const Skills = () => {
             </span>
             <span className="px-3 py-1 mx-1 my-1 bg-[#A1D874] text-md font-bold rounded-md">
               JavaScript
+            </span>
+          </div>
+        </div>
+        <div className="flex flex-row my-2">
+          <span className="text-white w-1/4 font-extrabold md:text-xl py-2 px-2">
+            AI Tool
+          </span>
+          <div className="flex flex-wrap w-3/4">
+            <span className="px-3 py-1 mx-1 my-1 bg-[#A1D874] text-md font-bold rounded-md">
+              Open AI
+            </span>
+            <span className="px-3 py-1 mx-1 my-1 bg-[#A1D874] text-md font-bold rounded-md">
+              Gemini Pro
+            </span>
+            <span className="px-3 py-1 mx-1 my-1 bg-[#A1D874] text-md font-bold rounded-md">
+              Gemini Pro Vision
             </span>
           </div>
         </div>

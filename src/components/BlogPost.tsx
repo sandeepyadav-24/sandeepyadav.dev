@@ -21,8 +21,12 @@ const blog = [
 const BlogPost = () => {
   return (
     <div className="bg-[#5740B9]">
-      <h1>Blogs</h1>
-      <h1>From My Blog Post</h1>
+      <h1 className="text-white text-center ">
+        <span className="text-[#A8DC79]">~</span>Blogs
+      </h1>
+      <h1 className="font-semibold text-white text-3xl text-center ">
+        From My <span className="text-[#A8DC79]">Blog Post</span>
+      </h1>
       <div className=" flex flex-col md:flex-row ">
         {blog.map((e, index) => {
           return (

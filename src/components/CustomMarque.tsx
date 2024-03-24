@@ -5,8 +5,7 @@ type prop = {
 
 const CustomMarque = (props: prop) => {
   return (
-    <div className="text-white bg-[#5640B8] my-2">
-      <hr className="text-white" />
+    <div className="text-white bg-[#5640B8] my-2 border-white border-[0.5px] rounded-sm">
       <Marquee>
         <span className="mx-2">{props.college}</span>
         <span>
@@ -160,7 +159,6 @@ const CustomMarque = (props: prop) => {
           </svg>
         </span>
       </Marquee>
-      <hr className="text-white" />
     </div>
   );
 };

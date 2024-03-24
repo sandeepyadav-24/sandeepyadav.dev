@@ -43,7 +43,7 @@ export default function DrawerAppBar(props: Props) {
   const drawer = (
     <Box
       onClick={handleDrawerToggle}
-      sx={{ textAlign: "center", backgroundColor: "#5640B7", height: "100%" }}
+      sx={{ textAlign: "center", height: "100%" }}
     >
       <Typography variant="h3" sx={{ my: 2 }}>
         Sandeep Yadav
@@ -54,9 +54,7 @@ export default function DrawerAppBar(props: Props) {
           <Link href={item.link} key={index} passHref>
             {" "}
             {/* Use NextLink as wrapper */}
-            <ListItemButton
-              sx={{ textAlign: "center", backgroundColor: "#5640B7" }}
-            >
+            <ListItemButton sx={{ textAlign: "center" }}>
               <ListItemText primary={item.text} key={index} />
             </ListItemButton>
           </Link>
@@ -69,7 +67,7 @@ export default function DrawerAppBar(props: Props) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: "flex", backgroundColor: "#5640B7" }}>
+    <Box sx={{ display: "flex" }}>
       <CssBaseline />
       <AppBar component="nav">
         <Toolbar>
@@ -77,7 +75,7 @@ export default function DrawerAppBar(props: Props) {
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: "none" }, backgroundColor: "#5640B7" }}
+            sx={{ mr: 2, display: { sm: "none" } }}
           >
             <MenuIcon />
           </IconButton>
@@ -87,7 +85,6 @@ export default function DrawerAppBar(props: Props) {
             sx={{
               flexGrow: 1,
               display: { xs: "none", sm: "block" },
-              backgroundColor: "#5640B7",
             }}
           >
             Sandeep Yadav
@@ -95,7 +92,6 @@ export default function DrawerAppBar(props: Props) {
           <Box
             sx={{
               display: { xs: "none", sm: "block" },
-              backgroundColor: "#5640B7",
             }}
           >
             {navItems.map((item, index) => (
