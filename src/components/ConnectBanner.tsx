@@ -104,19 +104,12 @@ const ConnectBanner = () => {
         </div>
         <div className="md:w-1/2 flex flex-row justify-between  md:mx-10">
           <div>
-            <h1 className="text-[#5740B9] font-semibold">Navigation</h1>
+            <h1 className="text-[#5740B9] font-semibold">Quick Links</h1>
             <h1>Home</h1>
             <h1>About </h1>
             <h1>Hackathon</h1>
             <h1>Projects</h1>
             <h1>Blog</h1>
-          </div>
-          <div>
-            <h1 className="text-[#5740B9] font-semibold">Contact</h1>
-            <h1>8076846925</h1>
-            <h1>sandeepyadav.dev</h1>
-            <h1>sandeepyadav004343@gmail.com</h1>
-            <h1>ITS engineering College</h1>
           </div>
         </div>
       </div>

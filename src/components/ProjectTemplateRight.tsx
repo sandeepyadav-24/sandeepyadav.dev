@@ -11,24 +11,26 @@ interface ProjectTemplateProps {
 const ProjectTemplateRight: React.FC<ProjectTemplateProps> = (props) => {
   return (
     <div className="flex flex-col md:flex-row bg-[#705BC4]  mt-7 p-5 rounded-3xl">
-      <div className="md:w-1/2 ">
+      <div className="md:w-1/2  ">
         <img
-          className="w-[500px] h-[300px] rounded-2xl"
+          className="w-[500px] h-[300px] md:mx-5 rounded-2xl"
           src={props.imageSource}
         />
       </div>
-      <div className="md:w-1/2 py-5 ">
-        <div className="flex flex-wrap my-3">
+      <div className="md:w-1/2 p-2 border-white border-[1px] rounded-lg ">
+        <div className="flex flex-wrap my-1 mb-3">
           {props.techStack.map((e, index) => {
             return <Tag techStack={e} key={index} />;
           })}
         </div>
-        <span className="bg-[#A2D974] font-bold mx-1 my-1 py-2 rounded-md px-5">
+        <span className="bg-[#A2D974] font-bold mx-1 my-3 py-2 rounded-md px-5">
           {props.projectName}
         </span>
-        <h1 className="text-white my-2">{props.projectDescription}</h1>
-        <div className="flex flex-row justify-between">
-          <Button working={"View Details"} />
+        <h1 className="bg-[#5640B8] border-[0.5px] border-white text-white rounded-md px-2 py-2 mt-3">
+          {props.projectDescription}
+        </h1>
+        <div className="flex flex-row justify-between mt-2">
+          <Button working={"Details"} />
           <span className="mr-10">
             <svg
               xmlns="http://www.w3.org/2000/svg"
