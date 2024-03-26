@@ -10,9 +10,11 @@ interface HackathonTemplateProps {
   location: string;
   image: string;
   achievement: string;
+  link: string;
   key: number;
 }
 const HackathonTemplateLeft: React.FC<HackathonTemplateProps> = (props) => {
+  console.log();
   return (
     <div
       className="bg-[#705BC4] flex flex-col md:flex-row my-5 rounded-2xl p-3 "
@@ -33,7 +35,7 @@ const HackathonTemplateLeft: React.FC<HackathonTemplateProps> = (props) => {
         </div>
 
         <div className="flex flex-row justify-between ">
-          <Button working={"Details"} />
+          <Button working={"Details"} link={props.link} />
           <AchievementTag name={props.achievement} />
         </div>
       </div>

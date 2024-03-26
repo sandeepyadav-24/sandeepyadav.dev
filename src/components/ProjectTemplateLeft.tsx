@@ -25,7 +25,7 @@ const ProjectTemplateLeft: React.FC<ProjectTemplateProps> = (props) => {
           {props.projectDescription}
         </h1>
         <div className="flex justify-between ">
-          <Button working={"Details"} />
+          <Button working={"Details"} link={props.link} />
           <span className="mr-10">
             <svg
               xmlns="http://www.w3.org/2000/svg"

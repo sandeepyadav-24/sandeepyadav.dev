@@ -34,7 +34,7 @@ const AboutIntro = () => {
             <h1> Freelance Projects</h1>
           </div>
         </div>
-        <Button working={"Resume"} />
+        <Button working={"Resume"} link={"https://www.google.com"} />
       </div>
     </div>
   );

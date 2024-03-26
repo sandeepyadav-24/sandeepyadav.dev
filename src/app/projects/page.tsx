@@ -6,7 +6,7 @@ import Marque from "@/components/Marque";
 import WorkTogether from "@/components/WorkTogether";
 const project = [
   {
-    link: "www.google.com",
+    link: "https://github.com/sandeepyadav-24/Social.Ai",
 
     imageSource:
       "https://media.licdn.com/dms/image/D5622AQGdJdCgFK2-oQ/feedshare-shrink_2048_1536/0/1710859206612?e=1714003200&v=beta&t=6ZMJF8pSF_JIwa_-vVEWSHvO-Pj36RMcNYxZ1ExFPWw",
@@ -30,7 +30,7 @@ const project = [
     projectLink: "www.google.com",
   },
   {
-    link: "www.google.com",
+    link: "https://github.com/sandeepyadav-24/Article.Ai",
 
     imageSource:
       "https://media.licdn.com/dms/image/D5622AQGdJdCgFK2-oQ/feedshare-shrink_2048_1536/0/1710859206612?e=1714003200&v=beta&t=6ZMJF8pSF_JIwa_-vVEWSHvO-Pj36RMcNYxZ1ExFPWw",
@@ -53,7 +53,7 @@ const project = [
     projectLink: "www.google.com",
   },
   {
-    link: "www.google.com",
+    link: "https://github.com/sandeepyadav-24/Notify",
 
     imageSource: "./NotifyBanner.jpeg",
     projectName: "Notify",
@@ -75,7 +75,7 @@ const project = [
     projectLink: "www.google.com",
   },
   {
-    link: "www.google.com",
+    link: "https://github.com/sandeepyadav-24/BookBridge",
 
     imageSource:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1707296140930/199fcd68-f12e-4793-87c2-15f11c6a2924.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
@@ -95,7 +95,7 @@ const project = [
     projectLink: "www.google.com",
   },
   {
-    link: "www.google.com",
+    link: "https://github.com/sandeepyadav-24/sandeepyadav.dev",
 
     imageSource: "./Banner.jpeg",
     projectName: "Portfolio Website",

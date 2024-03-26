@@ -16,6 +16,7 @@ const hack = [
     hackathonProject: "Social.Ai",
     hackathonLocation: "NIT Hamirpur, Himachal Pradesh",
     hackathonAchievement: "Runner Up in Track Prize",
+    hackathonLink: "https://github.com/sandeepyadav-24/Social.Ai",
   },
   {
     hackathonName: "Hacked 2.0",
@@ -27,6 +28,7 @@ const hack = [
     hackathonProject: "Notify",
     hackathonLocation: "BML Munjal University, Haryana",
     hackathonAchievement: "Under Top 10 Teams",
+    hackathonLink: "https://github.com/sandeepyadav-24/Notify",
   },
   {
     hackathonName: "Open Hack",
@@ -38,6 +40,7 @@ const hack = [
     hackathonProject: "Article.Ai",
     hackathonLocation: "IISC, Bangalore",
     hackathonAchievement: "Disqualified in Round 1",
+    hackathonLink: "https://github.com/sandeepyadav-24/Article.Ai",
   },
   {
     hackathonName: "Hack Street",
@@ -49,6 +52,7 @@ const hack = [
     hackathonProject: "BookBridge",
     hackathonLocation: "Jaypee Institute of Information Technology, Noida",
     hackathonAchievement: "Disqualified in Final Round",
+    hackathonLink: "https://github.com/sandeepyadav-24/BookBridge",
   },
   {
     hackathonName: "Smart India Hackathon",
@@ -61,6 +65,7 @@ const hack = [
     hackathonProject: "DropX",
     hackathonLocation: "ITS Engineering College, Greater Noida",
     hackathonAchievement: "Selected for College Level",
+    hackathonLink: "https://github.com/Aditya-AKP/Sih2k23",
   },
   {
     hackathonName: "Hack Xtreme",
@@ -73,6 +78,7 @@ const hack = [
     hackathonProject: "CodeX",
     hackathonLocation: "IIT, Delhi",
     hackathonAchievement: "Under Top 50 Teams",
+    hackathonLink: "www.google.com",
   },
 ];
 
@@ -100,6 +106,7 @@ const Hackathon = () => {
                   image={e.hackathonImage}
                   achievement={e.hackathonAchievement}
                   key={index}
+                  link={e.hackathonLink}
                 />
               );
             } else {
@@ -114,6 +121,7 @@ const Hackathon = () => {
                   image={e.hackathonImage}
                   achievement={e.hackathonAchievement}
                   key={index}
+                  link={e.hackathonLink}
                 />
               );
             }

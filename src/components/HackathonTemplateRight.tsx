@@ -10,6 +10,7 @@ interface HackathonTemplateProps {
   location: string;
   image: string;
   achievement: string;
+  link: string;
   key: number;
 }
 const HackathonTemplateRight: React.FC<HackathonTemplateProps> = (props) => {
@@ -40,7 +41,7 @@ const HackathonTemplateRight: React.FC<HackathonTemplateProps> = (props) => {
         </div>
 
         <div className="flex flex-row justify-between ">
-          <Button working={"Details"} />
+          <Button working={"Details"} link={props.link} />
           <AchievementTag name={props.achievement} />
         </div>
       </div>

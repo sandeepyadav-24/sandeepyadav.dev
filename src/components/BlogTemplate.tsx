@@ -1,7 +1,7 @@
 import Button from "./Button";
 interface BlogTemplateProps {
   heading: string;
-
+  link: string;
   date: string;
   img: string;
   key: number;
@@ -21,7 +21,7 @@ const BlogTemplate: React.FC<BlogTemplateProps> = (props) => {
           {props.heading}
         </h1>
         <div className="flex flex-row justify-between">
-          <Button working={"Read"} />
+          <Button working={"Read"} link={props.link} />
           <h1 className="bg-[#5640B8] text-white border-white border-[1px] rounded-md px-2">
             {props.date}
           </h1>

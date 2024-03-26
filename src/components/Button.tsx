@@ -1,13 +1,16 @@
 "use client";
-//import { useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
+
+import Link from "next/link";
 type prop = {
   working: string;
+  link: string;
 };
 const Button = (props: prop) => {
   const small = props.working.split(" ");
   const arr = small[1];
 
-  //const router = useRouter();
+  const router = useRouter();
   return (
     <div className="flex flex-row w-40 bg-[#242424] rounded-full h-8 ">
       <div className="w-1/4 bg-[#242424] py-1 rounded-l-full pl-3 ">
@@ -29,7 +32,9 @@ const Button = (props: prop) => {
         </div>
       </div>
       <div className="bg-[#A3DA74]   w-3/4 py-1 rounded-full px-7 font-semibold">
-        {props.working}
+        <Link href={props.link} target="_blank" rel="noopener noreferrer">
+          <h1>{props.working}</h1>
+        </Link>
       </div>
     </div>
   );

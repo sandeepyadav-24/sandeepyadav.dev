@@ -6,7 +6,7 @@ const ConnectBanner = () => {
         <h1 className="text-4xl font-semibold  ">
           Let&apos;s <span className="text-[#5640B6]">Connect</span> there
         </h1>
-        <Button working={"View Details"} />
+        <Button working={"Details"} link="https://www.google.com" />
       </div>
       <hr />
       <div className="flex flex-col md:flex-row my-5">

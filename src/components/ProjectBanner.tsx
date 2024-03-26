@@ -16,7 +16,7 @@ const ProjectBanner = () => {
           I am full stack web developer have expertise in makeing frontend and
           backend{" "}
         </h1>
-        <Button working={"View Details"} />
+        <Button working={"Details"} link={"https://www.google.com"} />
       </div>
     </div>
   );
