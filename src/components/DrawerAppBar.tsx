@@ -46,7 +46,7 @@ export default function DrawerAppBar(props: Props) {
       sx={{ textAlign: "center", height: "100%" }}
     >
       <Typography variant="h3" sx={{ my: 2 }}>
-        Sandeep Yadav
+        <Link href="/">Sandeep Yadav</Link>
       </Typography>
       <Divider />
       <List>
