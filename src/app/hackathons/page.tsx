@@ -6,6 +6,32 @@ import WorkTogether from "@/components/WorkTogether";
 
 const hack = [
   {
+    hackathonName: "Hack With India",
+    hackathonImage:
+      "https://media.licdn.com/dms/image/D5622AQHfpmOl4ePNSg/feedshare-shrink_2048_1536/0/1710859208362?e=1714003200&v=beta&t=veq0hi-2mAFdmwoNlEnMUvZwVxLdwgR4CJ50P58EpzY",
+    hackathonDescription:
+      "I was among top 40 participanst against 5000 participants at Microsoft Gurugram , where my team developed a productivity tool combining ML models and AI. Our platform enables users to automating all posting task and automatically converting and posting them across platforms. It streamlines user tasks, saving valuable time.",
+    hackathonDate: "6 April 2024",
+    hackathonMode: "Offline",
+    hackathonProject: "Avatar.Ai",
+    hackathonLocation: "Microsoft, Gurugram",
+    hackathonAchievement: "Among top 40 out of 5000+",
+    hackathonLink: "https://github.com/sandeepyadav-24/Avatar.AI",
+  },
+  {
+    hackathonName: "Hack Hound 2.0",
+    hackathonImage:
+      "https://media.licdn.com/dms/image/D5622AQHfpmOl4ePNSg/feedshare-shrink_2048_1536/0/1710859208362?e=1714003200&v=beta&t=veq0hi-2mAFdmwoNlEnMUvZwVxLdwgR4CJ50P58EpzY",
+    hackathonDescription:
+      "I was among top 40 participanst against 5000 participants at Microsoft Gurugram , where my team developed a productivity tool combining ML models and AI. Our platform enables users to automating all posting task and automatically converting and posting them across platforms. It streamlines user tasks, saving valuable time.",
+    hackathonDate: "5 April 2024",
+    hackathonMode: "Offline",
+    hackathonProject: "ArmorAssist",
+    hackathonLocation: "SRM, Ghaziabad",
+    hackathonAchievement: "Nothing",
+    hackathonLink: "https://github.com/sandeepyadav-24/ArmorAssist",
+  },
+  {
     hackathonName: "Electrothon 6.0",
     hackathonImage:
       "https://media.licdn.com/dms/image/D5622AQHfpmOl4ePNSg/feedshare-shrink_2048_1536/0/1710859208362?e=1714003200&v=beta&t=veq0hi-2mAFdmwoNlEnMUvZwVxLdwgR4CJ50P58EpzY",
